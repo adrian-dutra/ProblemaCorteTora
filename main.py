@@ -1,4 +1,3 @@
-import random
 import time
 def valorMax(n, tabelaPrecos):
     copia = tabelaPrecos.copy()  
@@ -34,10 +33,9 @@ def resultado_em_tabela(tamanhos, vDps, tDp, vGds, tGd):
     print(tabela)
     return tabela
 
-# Main
-inc = 1000
-fim = 20000
-stp = 1000
+inc = 10
+fim = 110
+stp = 1
 tamanhos = []
 vDps = []
 vGds = []
